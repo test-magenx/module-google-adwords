@@ -22,11 +22,6 @@ class SetConversionValueObserver implements ObserverInterface
     protected $_collection;
 
     /**
-     * @var \Magento\Framework\Registry
-     */
-    private $_registry;
-
-    /**
      * Constructor
      *
      * @param \Magento\GoogleAdwords\Helper\Data $helper
